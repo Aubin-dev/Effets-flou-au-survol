@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: lightblue;
+    background: linear-gradient(to bottom, yellow,red);
 }
 .box{
     width: 150px;
@@ -20,7 +20,12 @@ body{
     cursor: pointer;
     background: #f1f1f1;
     margin: 30px;
-    font-size: 40px;
+    font-size: 70px;
+}
+.arrow{
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
 }
 .flou{
     filter: blur(3px);
